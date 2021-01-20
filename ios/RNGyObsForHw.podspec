@@ -1,16 +1,17 @@
+require 'json'
+pjson = JSON.parse(File.read('package.json'))
 
 Pod::Spec.new do |s|
   s.name         = "RNGyObsForHw"
-  s.version      = "1.0.51"
-  s.summary      = "RNGyObsForHw"
-  s.description  = <<-DESC
-                  RNGyObsForHw
-                   DESC
+  s.version      = pjson["version"]
+  s.summary      = pjson["description"]
+  s.license      = pjson["license"]
   s.homepage     = "https://github.com/author/RNGyObsForHw.git"
-  s.license      = "MIT"
-  s.author             = { "author" => "author@domain.cn" }
+  s.author             = { "itgyy" => "851511476@qq.com" }
+
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/author/RNGyObsForHw.git", :tag => "master" }
+
+  s.source       = { :git => "https://github.com/author/RNGyObsForHw.git", :tag => "v#{s.version}" }
   s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
