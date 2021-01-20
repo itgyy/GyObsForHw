@@ -1,18 +1,33 @@
 {
   "name": "react-native-gy-obs-for-hw",
   "version": "1.0.0",
-  "description": "",
+  "description": "hua wei OBS for android and iOS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "ios",
+    "android"
   ],
-  "author": "gyy",
+  "author": {
+    "name": "itgyy",
+    "email": "851511476@qq.com"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itgyy/GyObsForHw.git"
+  },
+  "devDependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.53.0"
+  },
   "peerDependencies": {
-    "react-native": "^0.41.2",
-    "react-native-windows": "0.41.0-rc.1"
+    "react": "^16.2.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   }
 }
