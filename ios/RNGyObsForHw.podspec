@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNGyObsForHw"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "RNGyObsForHw"
   s.description  = <<-DESC
                   RNGyObsForHw
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/author/RNGyObsForHw.git", :tag => "master" }
-  s.source_files  = "RNGyObsForHw/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
 
 
