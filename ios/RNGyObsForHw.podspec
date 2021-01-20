@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNGyObsForHw"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "RNGyObsForHw"
   s.description  = <<-DESC
                   RNGyObsForHw
