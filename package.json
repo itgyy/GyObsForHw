@@ -1,6 +1,6 @@
 {
   "name": "react-native-gy-obs-for-hw",
-  "version": "1.0.52",
+  "version": "1.0.53",
   "description": "hua wei OBS for android and iOS",
   "main": "index.js",
   "scripts": {
